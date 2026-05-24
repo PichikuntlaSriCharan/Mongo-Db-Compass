@@ -1,0 +1,12 @@
+# Mongo-Db-Compass
+
+1.show dbs || showdatabases
+2.use "Database Name"
+3.show collections
+4.db.createCollection("Collection Name")
+5.db.'old name'.renameCollection('new name')
+6.db.dropDatabase()
+7.db.Collection Name.insertOne({})
+8.db.Collection Name.insertMany({})
+9.db.Collection Name.find()
+10.db.Collection Name.find({category: "News"})
