@@ -9,4 +9,9 @@
 7.db.Collection Name.insertOne({})
 8.db.Collection Name.insertMany({})
 9.db.Collection Name.find()
-10.db.Collection Name.find({category: "News"})
+10.db.Collection Name.findOne({_id:ObjectId("'id'")})
+11.db.Collection Name.find({category: "News"})
+12.db.Collection Name.deleteOne({_id:ObjectId("'id'")})
+13.
+14.
+15.
