@@ -12,6 +12,5 @@
 10.db.Collection Name.findOne({_id:ObjectId("'id'")})
 11.db.Collection Name.find({category: "News"})
 12.db.Collection Name.deleteOne({_id:ObjectId("'id'")})
-13.
-14.
-15.
+13.db.Collection Name.updateOne({_id:ObjectId("'id'"},{$set:{}})
+14.db.Collection Name.updateMany({_id:ObjectId("'id'"},{$set:{}})
